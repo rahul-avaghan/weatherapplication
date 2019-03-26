@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+%background-norepeat {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mat-dialog-container {
+  background: transparent;
+}
+.dialog-backgound-paris {
+  @extend %background-norepeat;
+  background-image: url("/assets/images/paris.jpg");
+}
+.dialog-backgound-amsterdam {
+  @extend %background-norepeat;
+  background-image: url("/assets/images/amsterdam.jpg");
+}
+.dialog-backgound-prague {
+  @extend %background-norepeat;
+  background-image: url("/assets/images/prague.jpg");
+}
+.dialog-backgound-london {
+  @extend %background-norepeat;
+  background-image: url("/assets/images/london.jpg");
+}
+.dialog-backgound-berlin {
+  @extend %background-norepeat;
+  background-image: url("/assets/images/berlin.jpg");
+}
+
+
+

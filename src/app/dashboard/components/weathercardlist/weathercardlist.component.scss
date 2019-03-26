@@ -1,0 +1,9 @@
+@import "../../../../styles/devices";
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include media-breakpoint-down(sm) {
+    justify-content: center;
+  }
+}

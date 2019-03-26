@@ -1,0 +1,20 @@
+<div class="card mat-elevation-z6"
+     matRipple
+     [matRippleCentered]="true"
+     (click)="openDialog()"
+     [style.backgroundImage]="'url(./assets/images/'+ weatherInfo.city.name.toLowerCase()+'.jpg)'">
+  <div class="header">
+    {{weatherInfo.city.name}},{{weatherInfo.city.country}}
+  </div>
+
+  <div class="fade"></div>
+  <div class="bottomText">
+    {{weatherInfo.tempreture}}&#176;C
+  </div>
+  <div class="side-text">
+    <div>
+      Wind speed
+    </div>
+    {{weatherInfo.windSpeed}}km/hr
+  </div>
+</div>

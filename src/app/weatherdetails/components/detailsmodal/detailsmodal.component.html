@@ -1,0 +1,14 @@
+<button mat-icon-button
+        [mat-dialog-close]="true"
+        class="close-icon mat-elevation-z1">
+  <mat-icon aria-label="label">close</mat-icon>
+</button>
+
+<h2 class="dialog-header">Forecast</h2>
+<mat-dialog-content>
+  <p>
+    <app-metadata [weatherInfo]="weatherInfo"></app-metadata>
+  </p>
+  <h3 class="dialog-header">Hourly</h3>
+  <app-forecast [cityName]="weatherInfo.city.name"></app-forecast>
+</mat-dialog-content>

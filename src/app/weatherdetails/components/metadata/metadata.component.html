@@ -1,0 +1,10 @@
+<div *ngIf="weatherInfo"
+     style="text-align:center">
+  <h1>{{weatherInfo.city.name}},{{weatherInfo.city.country}}</h1>
+  <h1>{{weatherInfo.tempreture}}&#176;C</h1>
+  <h3>
+    Wind Speed: {{weatherInfo.windSpeed}}km/hr
+  </h3>
+
+  <div>{{weatherInfo.weatherStatus}}</div>
+</div>

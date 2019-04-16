@@ -4,7 +4,7 @@ It shows weather of few pre configured cities.
 
 Demo : [weatherapp](https://superdexter.github.io/weatherapp/)
 
-Vide demo :  [Video demo of Weather app] (https://youtu.be/pRzm_aPqJBw)
+Vide demo :  [Video demo of Weather app](https://youtu.be/pRzm_aPqJBw)
 
 
 ## Architecture

@@ -2,7 +2,7 @@
 
 It shows weather of few pre configured cities.
 
-Demo : [weatherapp](https://superdexter.github.io/weatherapp/)
+Demo : [weatherapp](https://superdexter.github.io)
 
 Vide demo :  [Video demo of Weather app](https://youtu.be/pRzm_aPqJBw)
 

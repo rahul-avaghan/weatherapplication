@@ -7,7 +7,7 @@ Demo : [weatherapp](https://superdexter.github.io/weatherapp/)
 Vide demo :  [Video demo of Weather app] (https://youtu.be/pRzm_aPqJBw)
 
 
-##Architecture
+## Architecture
 
  The project is built using Angular.And separates application in to different modules.Each module is lazily loaded.
 It uses angular material library for showing dialog. and ngx chart library for showing area chart.

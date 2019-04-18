@@ -27,7 +27,6 @@ To build the app following steps needs to be done.
 then run the app
 ```
  ng serve
-
 ```
 
 
